@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0051)https://wiki.apache.org/httpd/CommonHTTPStatusCodes -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="robots" content="index,nofollow">
+
+<title>CommonHTTPStatusCodes - Httpd Wiki</title>
+<script type="text/javascript" src="./CommonHTTPStatusCodes - Httpd Wiki_files/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./CommonHTTPStatusCodes - Httpd Wiki_files/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./CommonHTTPStatusCodes - Httpd Wiki_files/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./CommonHTTPStatusCodes - Httpd Wiki_files/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./CommonHTTPStatusCodes - Httpd Wiki_files/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/wiki/modernized/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="Httpd Wiki: CommonHTTPStatusCodes" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=CommonHTTPStatusCodes&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="https://wiki.apache.org/httpd/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=print">
+<link rel="Search" href="https://wiki.apache.org/httpd/FindPage">
+<link rel="Index" href="https://wiki.apache.org/httpd/TitleIndex">
+<link rel="Glossary" href="https://wiki.apache.org/httpd/WordIndex">
+<link rel="Help" href="https://wiki.apache.org/httpd/HelpOnFormatting">
+</head>
+
+<body lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="https://wiki.apache.org/httpd/CommonHTTPStatusCodes">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput" style="display: none;">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search" class="disabled">
+<input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles" disabled="">
+<input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text" disabled="">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="https://wiki.apache.org/httpd/FrontPage">Httpd Wiki</a></div>
+<div id="username"><a href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=login" id="login" rel="nofollow">Login</a></div>
+<h1 id="locationline">
+
+<span id="pagelocation"><a href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes">CommonHTTPStatusCodes</a></span>
+</h1>
+
+
+<ul id="navibar">
+<li class="wikilink"><a href="https://wiki.apache.org/httpd/FrontPage">FrontPage</a></li><li class="wikilink"><a href="https://wiki.apache.org/httpd/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="https://wiki.apache.org/httpd/FindPage">FindPage</a></li><li class="wikilink"><a href="https://wiki.apache.org/httpd/HelpContents">HelpContents</a></li><li class="current"><a href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes">CommonHTTPStatusCodes</a></li>
+</ul>
+
+<div id="pageline"><hr style="display:none;"></div>
+
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="https://wiki.apache.org/httpd/CommonHTTPStatusCodes">
+<div>
+    
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="show">More Actions:</option><option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="RenamePage" disabled="" class="disabled">Rename Page</option>
+<option value="CopyPage">Copy Page</option>
+<option value="DeletePage" disabled="" class="disabled">Delete Page</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="MyPages">My Pages</option>
+<option value="show" disabled="" class="disabled">Subscribe User</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="show" disabled="" class="disabled">Remove Spam</option>
+<option value="show" disabled="" class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line874">Here is a list of most of the used http status codes with an explanation of what they mean. <span class="anchor" id="line-3"></span></p><div><table><tbody><tr>  <td><p class="line891"><strong>Code</strong> </p></td>
+  <td><p class="line891"><strong>Message</strong> </p></td>
+  <td><p class="line891"><strong>Description</strong> </p></td>
+  <td><p class="line891"><strong>See also</strong> </p></td>
+</tr>
+<tr>  <td colspan="4" style="&amp;quot; text-align:center&amp;quot; ; background-color: &amp;quot;#BBB&amp;quot"><span class="anchor" id="line-4"></span><p class="line862">1xx - Informational </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-5"></span><p class="line862">100 </p></td>
+  <td><p class="line862">Continue </p></td>
+  <td><p class="line862">Allows the client to determine if the origin server is willing to accept the request, for example based on the request headers, before the client sends the request body. If the request is not accepted, the status code 406 is returned. <br>
+<br>
+ Example usage: http client checks if chunked transfer encoding is allowed before sending the full request body. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-6"></span><p class="line862">101 </p></td>
+  <td><p class="line862">Switching Protocols </p></td>
+  <td><p class="line862">Response from the httpd when an upgrade header is received and the requested protocol is supported by the httpd. Will be followed by a Upgrade header specifying the tokens of the protocol stack it is switching to. <br>
+<br>
+ Example usage: http client wants to switch from HTTP/1.1 to TLS/1.0 in order to set up a secure communication channel. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-7"></span><p class="line862">102 </p></td>
+  <td><p class="line862">Processing </p></td>
+  <td><p class="line862">Part of the http status code extensions for Distributed Authoring (WebDAV). <br>
+ Should be sent to the http client when a request takes a long period to complete. Will always be followed by the final response indicating either success or failure of the request. This status code can be used to avoid connection timeouts preventing the response from being succesfully sent to the http client. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td colspan="4" style="&amp;quot; text-align:center&amp;quot; ; background-color: &amp;quot;#BBB&amp;quot"><span class="anchor" id="line-8"></span><p class="line862">2xx - Successful </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-9"></span><p class="line862">200 </p></td>
+  <td><p class="line862">OK </p></td>
+  <td><p class="line862">Request has succeeded, content delivered normally. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-10"></span><p class="line862">201 </p></td>
+  <td><p class="line862">Created </p></td>
+  <td><p class="line862">Request has succeeded and has resulted in a new resource being created. Usually details on the resource such as its new URI and ETag information are included in the httpd response. <br>
+<br>
+ Example usage: a POST request to a remote script that generates a file on the server returns the status code 201 once the file has been succesfully created. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-11"></span><p class="line862">202 </p></td>
+  <td><p class="line862">Accepted </p></td>
+  <td><p class="line862">The request has been accepted for processing, but the processing has not been completed. This is used when a client sends a request to the httpd, but can or does not maintain a persistent connection long enough to await the final response. The response containing the 202 status code should also contain an entity describing a location where the status of the request can be monitored or some estimate of when the the request can be expected to be fulfilled. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-12"></span><p class="line862">203 </p></td>
+  <td><p class="line862">Non-Authoritative Information </p></td>
+  <td><p class="line862">The returned metainformation in the entity-header is not the definitive set as available from the origin server, but is gathered from a local or a third-party copy. The set presented MAY be a subset or superset of the original version. For example, including local annotation information about the resource might result in a superset of the metainformation known by the origin server. Use of this response code is not required and is only appropriate when the response would otherwise be 200. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-13"></span><p class="line862">204 </p></td>
+  <td><p class="line862">No Content </p></td>
+  <td><p class="line862">The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation. This response is primarily intended to allow input for actions to take place without causing a change to the user agent's active document view. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-14"></span><p class="line862">205 </p></td>
+  <td><p class="line862">Reset Content </p></td>
+  <td><p class="line862">The server has fulfilled the request and the user agent should reset the document view which caused the request to be sent. This response is primarily intended to allow input for actions to take place via user input, followed by a clearing of the form in which the input is given so that the user can easily initiate another input action. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-15"></span><p class="line862">206 </p></td>
+  <td><p class="line862">Partial Content </p></td>
+  <td><p class="line862">The server has fulfilled the partial get request for the resource. The request must have included a Range header field indicating the desired range, and may have included an If-Range header field to make the request conditional. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-16"></span><p class="line862">207 </p></td>
+  <td><p class="line862">Multi-Status </p></td>
+  <td><p class="line862">Part of the http status code extensions for Distributed Authoring (WebDAV). <br>
+ Used when a request to the httpd resulted in multiple non-1xx status codes being generated during the method invocation. The response body consists of a XML element 'multistatus' which contains multiple 'response' elements, each specifying a status code. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td colspan="4" style="&amp;quot; text-align:center&amp;quot; ; background-color: &amp;quot;#BBB&amp;quot"><span class="anchor" id="line-17"></span><p class="line862">3xx - Redirection </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-18"></span><p class="line862">300 </p></td>
+  <td><p class="line862">Multiple Choices </p></td>
+  <td><p class="line862"> The requested resource corresponds to any one of a set of representations, meaning Content Negotiation is in effect, on Apache HTTPD Server enabled by the Multiviews option or a type-map file.</p></td>
+  <td><p class="line862">  <a class="http" href="http://httpd.apache.org/docs/current/content-negotiation.html">Content Negotiation</a></p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-19"></span><p class="line862">301 </p></td>
+  <td><p class="line862">Moved Permanently </p></td>
+  <td><p class="line862">The requested resource has been assigned a new permanent URI.<br>
+<br>
+Example usage: <tt>Redirect&nbsp;permanent&nbsp;/foo&nbsp;http://www.example.com/bar</tt> or <tt>RewriteRule&nbsp;/foo&nbsp;http://www.example.com/bar&nbsp;[R=301]</tt></p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-20"></span><p class="line862">302 </p></td>
+  <td><p class="line862">Found </p></td>
+  <td><p class="line862"> The requested resource resides temporarily under a different URI. This is the default status code returned if the request matches a Redirect or <a class="nonexistent" href="https://wiki.apache.org/httpd/RedirectMatch">RedirectMatch</a> directive, or a rewriterule flagged with [R].<br>
+<br>
+Example usage: <tt>Redirect&nbsp;/foo&nbsp;http://www.example.com/bar</tt> or <tt>RewriteRule&nbsp;/foo&nbsp;http://www.example.com/bar&nbsp;[R]</tt></p></td>
+  <td><p class="line862">  </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-21"></span><p class="line862">303 </p></td>
+  <td><p class="line862">See Other </p></td>
+  <td><p class="line862">The response to the request can be found under a different URI and should be retrieved using a GET method on that resource. This method exists primarily to allow the output of a POST-activated script to redirect the user agent to a selected resource.<br>
+<br>
+Example usage: <tt>Redirect&nbsp;seeother&nbsp;/foo&nbsp;http://www.example.com/bar</tt> or <tt>RewriteRule&nbsp;/foo&nbsp;http://www.example.com/bar&nbsp;[R=303]</tt></p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-22"></span><p class="line862">304 </p></td>
+  <td><p class="line862">Not Modified </p></td>
+  <td><p class="line862"> If the client has performed a conditional GET request and access is allowed, but the document has not been modified, the server should respond with this status code. The httpd response will include header fields informing the http client about the requested resource. If this information is identical to the cached version of the resource, this cached version will be used by the http client. Header fields that include such information are: Date, ETag, Content-Location, Cache-Control, Expires, and/or Vary. </p></td>
+  <td><p class="line862"> <a class="http" href="http://httpd.apache.org/docs/current/caching.html">Caching</a></p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-23"></span><p class="line862">305 </p></td>
+  <td><p class="line862">Use Proxy </p></td>
+  <td><p class="line862"> The requested resource must be accessed through the proxy, which is given by the Location field in the httpd response. Usually the http client will immediately request the resource described in this Location field.</p></td>
+  <td><p class="line862"> <a class="http" href="http://httpd.apache.org/docs/current/mod/mod_proxy.html">mod_proxy</a></p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-24"></span><p class="line862">306 </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862">Was used in earlier versions of the RFC, currently unused. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-25"></span><p class="line862">307 </p></td>
+  <td><p class="line862">Temporary Redirect </p></td>
+  <td><p class="line862">Defined in the HTTP/1.1 specification as a more strict version of 302. See the RFC for details.<br>
+<br>
+Example usage: <tt>Redirect&nbsp;307&nbsp;/foo&nbsp;http://www.example.com/bar</tt> or <tt>RewriteRule&nbsp;/foo&nbsp;http://www.example.com/bar&nbsp;[R=307]</tt> </p></td>
+  <td><p class="line862"> <a class="http" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">RFC2616 Section 10</a> </p></td>
+</tr>
+<tr>  <td colspan="4" style="&amp;quot; text-align:center&amp;quot; ; background-color: &amp;quot;#BBB&amp;quot"><span class="anchor" id="line-26"></span><p class="line862">4xx - Client Error </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-27"></span><p class="line862">400 </p></td>
+  <td><p class="line862">Bad Request </p></td>
+  <td><p class="line862">The request could not be understood by the server due to malformed syntax. Usually this is because of a error in the http client itself or a plugin/addon/malware loaded in the http client. You can inspect what request was being sent exactly by looking in the access logs. When using mod_security, check if the request is matching a rule and being blocked. Very rarely caused by problems on the network layer, either client- or serverside, resulting in corrupted http packets. <br>
+ Note that there is a bug in IE5 and IE6 causing Bad Request errors to occur when using digest authentication. Apache HTTPD Server provides a <a class="http" href="http://httpd.apache.org/docs/current/mod/mod_auth_digest.html#msie">workaround</a> for this. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-28"></span><p class="line862">401 </p></td>
+  <td><p class="line862">Unauthorized </p></td>
+  <td><p class="line862">When the http client requests a resource that requires authentication, http status code 401 is returned. The http client will need to provide valid authentication details in the request in order to access the resource. If the http client already sent the authentication details and the status code 401 is still returned, this means the authentication details were invalid. Possibly also caused by misconfigured authentication directives or invalid or corrupted password files. </p></td>
+  <td><p class="line862"> <a class="http" href="http://httpd.apache.org/docs/current/howto/auth.html">Authentication</a></p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-29"></span><p class="line862">402 </p></td>
+  <td><p class="line862">Payment Required </p></td>
+  <td><p class="line862">This status code is reserved for future use, currently not returned by Apache HTTPD Server. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-30"></span><p class="line862">403 </p></td>
+  <td><p class="line862">Forbidden </p></td>
+  <td><p class="line862">The server understood the request, but is refusing to fulfill it. Common causes are: <br>
+<br>
+ * No index file and indexing is turned off <br>
+ * Deny rule matching the request <br>
+ * Resource cannot be modified (the default response to a PUT request) <br>
+ * Filesystem permission problems (<a href="https://wiki.apache.org/httpd/13PermissionDenied">13PermissionDenied</a>)<br>
+<br>
+ Always check the errorlog for what exactly went wrong. </p></td>
+  <td><p class="line891"><a href="https://wiki.apache.org/httpd/Logs">Detailed errors</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-31"></span><p class="line862">404 </p></td>
+  <td><p class="line862">Not Found </p></td>
+  <td><p class="line862">The server has not found anything matching the request URI. This is commonly caused by a erroneous hyperlink or when resources are moved without modifying references to them. Could also be caused by an invalid internal redirect or rewriterule, check the accesslog and/or <a class="http" href="http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritelog">rewritelog</a> to see what resource was requested exactly. <br>
+ Note that *nix operating systems are case-sensitive by default, so a request for <tt>/Foo</tt> while <tt>/foo</tt> was intended, will result in a 404 status code being returned. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-32"></span><p class="line862">405 </p></td>
+  <td><p class="line862">Method Not Allowed </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-33"></span><p class="line862">406 </p></td>
+  <td><p class="line862">Not Acceptable </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-34"></span><p class="line862">407 </p></td>
+  <td><p class="line862">Proxy Authentication Required </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-35"></span><p class="line862">408 </p></td>
+  <td><p class="line862">Request Timeout </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-36"></span><p class="line862">409 </p></td>
+  <td><p class="line862">Conflict </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-37"></span><p class="line862">410 </p></td>
+  <td><p class="line862">Gone </p></td>
+  <td><p class="line862">The requested resource is no longer available at the server and no forwarding address is known. This is the preferred way of letting the http client know that a resource is permanently no longer available. <br>
+<br>
+Example usage: <tt>Redirect&nbsp;gone&nbsp;/foo&nbsp;http://www.example.com/bar</tt> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-38"></span><p class="line862">411 </p></td>
+  <td><p class="line862">Length Required </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-39"></span><p class="line862">412 </p></td>
+  <td><p class="line862">Precondition Failed </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-40"></span><p class="line862">413 </p></td>
+  <td><p class="line862">Request Entity Too Large </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-41"></span><p class="line862">414 </p></td>
+  <td><p class="line862">Request-URI Too Long </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-42"></span><p class="line862">415 </p></td>
+  <td><p class="line862">Unsupported Media Type </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-43"></span><p class="line862">416 </p></td>
+  <td><p class="line862">Requested Range Not Satisfiable </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-44"></span><p class="line862">417 </p></td>
+  <td><p class="line862">Expectation Failed </p></td>
+  <td><p class="line862"> </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-45"></span><p class="line862">422 </p></td>
+  <td><p class="line862">Unprocessable Entity </p></td>
+  <td><p class="line862">Part of the http status code extensions for Distributed Authoring (WebDAV). <br>
+ Used to let the http client know that the server understands the content type of the request entity but was unable to to process the contained instructions. <br>
+<br>
+ Example usage: a request body contains syntactically correct XML but semantically erroneous XML instructions. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-46"></span><p class="line862">423 </p></td>
+  <td><p class="line862">Locked </p></td>
+  <td><p class="line862">Part of the http status code extensions for Distributed Authoring (WebDAV). <br>
+ Means the source or destination resource of a method is locked. <br>
+<br>
+Example usage: Alice is working on file foo.txt in a svn repository and locks the file at the end of her shift. In the mean time Bob was also working on foo.txt and tries to commit his changes trough a WebDAV-enabled httpd, which results in a response code 423. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-47"></span><p class="line862">424 </p></td>
+  <td><p class="line862">Failed Dependency </p></td>
+  <td><p class="line862">Part of the http status code extensions for Distributed Authoring (WebDAV). <br>
+ Means that the method could not be performed on the resource because the requested action depended on another action and that action failed. <br>
+ <br>
+ Example usage: a PROPPATCH method is invoked with multiple changes to a resource, and one of these modifications fails. Since this method executes as a single atomic act, all changes must be able to be processed for the request to be succesfully completed. The other changes depended on the single failed modification, and the httpd returns status code 424. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-48"></span><p class="line862">426 </p></td>
+  <td><p class="line862">Upgrade Required </p></td>
+  <td><p class="line862">Part of the http status code extensions for Upgrading to TLS Within HTTP/1.1. <br>
+ Lets the client know that TLS is required for the client request to be completed. Will be followed by a Upgrade header specifying the required TLS version. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.ietf.org/rfc/rfc2817.txt">RFC 2817</a> </p></td>
+</tr>
+<tr>  <td colspan="4" style="&amp;quot; text-align:center&amp;quot; ; background-color: &amp;quot;#BBB&amp;quot"><span class="anchor" id="line-49"></span><p class="line862">5xx - Server Error </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-50"></span><p class="line862">500 </p></td>
+  <td><p class="line862">Internal Server Error </p></td>
+  <td><p class="line862">The server encountered an unexpected condition which prevented it    from fulfilling the request. Basically means that *something* went wrong on the server. You will need to consult the errorlog for what exactly went wrong. <br>
+<br>
+ Common causes are: <br>
+ * Erroneous CGI / PHP (Bad filesystem permissions, scripting errors, malformed or missing shebang line, bad line endings, script timeouts, etc) <br>
+ * Malformed directives in a .htaccess file <br>
+ * Hardware / OS problems <br>
+<br>
+ Check out the link to detailed errors for more detailed errormessages. </p></td>
+  <td><p class="line891"><a href="https://wiki.apache.org/httpd/Logs">Detailed errors</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-51"></span><p class="line862">501 </p></td>
+  <td><p class="line862">Not Implemented </p></td>
+  <td><p class="line862">The server does not support the functionality required to fulfill the    request. This is occasionally seen in cases where a malicious client tries to execute commands trough the httpd. Requests like '\x05\x01' arrive at the server, which is replied with a 501 status code. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-52"></span><p class="line862">502 </p></td>
+  <td><p class="line862">Bad Gateway </p></td>
+  <td><p class="line862">The server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request. This can happen when a backend processor is misconfigured or encounters an error. Also the default behaviour of mod_proxy is to send the status code 502 if it receives syntactically invalid response header lines (<em>i.e.</em> containing no colon) from the origin server. <br>
+ A <a class="https" href="https://issues.apache.org/bugzilla/show_bug.cgi?id=37770">bug</a> causing Bad Gateway errors was fixed in 2.2.4, so if you encounter this error using an old version, please upgrade to the most recent version. </p></td>
+  <td><p class="line862"> <a class="http" href="http://httpd.apache.org/docs/current/mod/mod_proxy.html#proxybadheader">ProxyBadHeader</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-53"></span><p class="line862">503 </p></td>
+  <td><p class="line862">Service Unavailable </p></td>
+  <td><p class="line862">The server is currently unable to handle the request due to a temporary overloading or maintenance of the server. Check the current load of the server using for example <a class="http" href="http://httpd.apache.org/docs/current/mod/mod_status.html">mod_status</a> or your OS (for example: top, ps, apachetop). Could also be caused by misconfigured <a class="http" href="http://httpd.apache.org/docs/current/mpm.html">MPM</a> settings. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-54"></span><p class="line862">504 </p></td>
+  <td><p class="line862">Gateway Timeout </p></td>
+  <td><p class="line862">The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server specified by the URI (e.g. HTTP, FTP, LDAP) or some other auxiliary server (e.g. DNS) it needed    to access in attempting to complete the request. You will need to check the status or logs on the backend side to find out what is causing the timeouts. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-55"></span><p class="line862">505 </p></td>
+  <td><p class="line862">HTTP Version Not Supported </p></td>
+  <td><p class="line862">The http version used in the request is not supported by the httpd. Note that the Apache HTTPD Server is fully HTTP/1.1 compatible since version 1.2 (released June 1997), so this error will not likely be encountered, unless a malformed version was specified in the request. </p></td>
+  <td><p class="line862"> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-56"></span><p class="line862">506 </p></td>
+  <td><p class="line862">Variant Also Negotiates </p></td>
+  <td><p class="line862">Part of the http status code extensions for Transparent Content Negotiation in HTTP. <br>
+ Indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process. <br>
+<br>
+Example usage: <em> <img alt="&lt;!&gt;" height="16" src="./CommonHTTPStatusCodes - Httpd Wiki_files/attention.png" title="&lt;!&gt;" width="16"> TODO: Documentation says this RFC is supported, but what config or type-map contents would result in this status code?</em> </p></td>
+  <td><p class="line891"><a class="http" href="http://www.ietf.org/rfc/rfc2295.txt">RFC 2295 Section 8</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-57"></span><p class="line862">507 </p></td>
+  <td><p class="line862">Insufficient Storage </p></td>
+  <td><p class="line862">Part of the http  status code extensions for Distributed Authoring (WebDAV).<br>
+ Means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. Also known to be used by other applications, such as Microsoft Exchange. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.webdav.org/specs/rfc2518.html#status.code.extensions.to.http11">RFC 2518 Section 10</a> </p></td>
+</tr>
+<tr>  <td><span class="anchor" id="line-58"></span><p class="line862">510 </p></td>
+  <td><p class="line862">Not Extended </p></td>
+  <td><p class="line862">Part of the http status code extensions for An HTTP Extension Framework. See link for details. </p></td>
+  <td><p class="line891"><a class="http" href="http://www.ietf.org/rfc/rfc2774.txt">RFC 2774 Section 7</a> </p></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line862">To get more details on the complete meaning of these codes you should consult the <a class="http" href="http://httpd.apache.org/docs/2.2/misc/relevant_standards.html">relevant standards</a>, or more specifically <a class="http" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">RFC 2616 Section 10</a>. <span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span></p><p class="line862">HTTP status codes can be found in the Apache HTTPD logfiles, this example shows a request that results in a '200' response code: <br>
+ <tt>&nbsp;&nbsp;127.0.0.1&nbsp;-&nbsp;foo&nbsp;[21/Jul/2011:13:37:42&nbsp;+0100]&nbsp;"GET&nbsp;/bar&nbsp;HTTP/1.1"&nbsp;200&nbsp;23674&nbsp;</tt> <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span></p><p class="line862">Remember that, in the case of an error status code (4xx or 5xx), there will almost always be more details available in the Apache error log. See <a href="https://wiki.apache.org/httpd/DistrosDefaultLayout">DistrosDefaultLayout</a> if you don't know where that file is kept. <span class="anchor" id="line-65"></span><span class="anchor" id="bottom"></span></p></div><p id="pageinfo" class="info" lang="en" dir="ltr">CommonHTTPStatusCodes  (last edited 2011-07-23 00:15:51 by <span title="Sling @ b72093.upc-b.chello.nl[212.83.72.93]"><a class="nonexistent" href="https://wiki.apache.org/httpd/Sling" title="Sling @ b72093.upc-b.chello.nl[212.83.72.93]">Sling</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="https://wiki.apache.org/httpd/CommonHTTPStatusCodes?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="https://wiki.apache.org/httpd/CommonHTTPStatusCodes">
+<div>
+    
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="show">More Actions:</option><option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="RenamePage" disabled="" class="disabled">Rename Page</option>
+<option value="CopyPage">Copy Page</option>
+<option value="DeletePage" disabled="" class="disabled">Delete Page</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="MyPages">My Pages</option>
+<option value="show" disabled="" class="disabled">Subscribe User</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="show" disabled="" class="disabled">Remove Spam</option>
+<option value="show" disabled="" class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+
+
+
+</body></html>
